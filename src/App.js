@@ -15,10 +15,10 @@ function App() {
     ]);
   }
   return (
-    <div>
+    <>
       <AddUser addUsers={AddUsers} />
       <UsersList users={usersList} />
-    </div>
+    </>
   );
 }
 
